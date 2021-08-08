@@ -1,0 +1,7 @@
+runtime 9.8583123
+|SG avg req| 44
+|SG avg rejected requests| 9
+|PQL avg requests| 46
+|PQL avg rejected requests| 11
+|PQL off peak avg rejected requests| 45
+|PQL off peak avg rejected| 6
