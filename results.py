@@ -134,6 +134,7 @@ def plot_2hw_cv(hw1, hw2, pathname, labels, colors):
         k += 1
 
     ax[0].legend(loc='best')
+    fig.subplots_adjust(hspace=0.5)
     plt.savefig(pathname)
     return
 

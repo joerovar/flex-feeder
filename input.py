@@ -33,7 +33,6 @@ N_BUSES = round(FIXED_CYCLE_TIME/HEADWAY)
 DELAY_TOLERANCE = 2.0 * 60
 SLACK_MIN = 1.2 * 60
 ROUTE_TIMES_MINS = {}
-print(ARR_RATES)
 for k in ROUTE_TIMES:
     ROUTE_TIMES_MINS[k] = round(ROUTE_TIMES[k] / 60, 1)
 # print(f'peak volume {PEAK_VOL} pax/hr')
